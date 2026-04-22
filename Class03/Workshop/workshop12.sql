@@ -1,0 +1,36 @@
+-- Workshop 1 & 2
+
+select sum(TotalPrice) as TotalPrice
+from Orders
+go
+
+select * from Orders
+
+--per e sekogas GroupBy
+
+select be.[Name], sum(o.TotalPrice) as TotalPricePerEntity
+from Orders o
+join BusinessEntities be
+on o.BusinessEntityId = be.Id
+group by be.[Name]
+--sekogas toa sto se grupira obavezno vo select
+
+
+select be.[Name], sum(o.TotalPrice) as TotalPricePerEntity
+from Orders o
+join BusinessEntities be on o.BusinessEntityId = be.Id
+where o.CustomerId < 20
+group by be.[Name]
+
+select * from Customers
+
+
+
+
+select be.[Name], 
+max(o.TotalPrice) as MaximumTotalPrice, 
+avg(distinct o.TotalPrice) as TotalPriceAverage
+from Orders o
+join BusinessEntities be
+on o.BusinessEntityId = be.Id
+group by be.[Name]
