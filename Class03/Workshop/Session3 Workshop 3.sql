@@ -12,7 +12,22 @@ order by TotalOrderCount desc
 
 
 
-CREATE VIEW vv_EmployeeOrders
+CREATE OR ALTER VIEW vv_EmployeeOrders
 AS
-select *
-from Orders 
+select e.FirstName + ' ' + e.LastName as Employee, 
+p.[Name]  as ProductName, 
+sum(od.Quantity) as TotalQuantity
+from Orders  o
+join Employees e on e.Id = o.EmployeeId
+join OrderDetails od on od.OrderId = o.Id
+join Products p on p.Id = od.ProductId
+join BusinessEntities be on be.Id = o.BusinessEntityId
+where be.Region ='Skopski'
+group by e.FirstName + ' ' + e.LastName, p.[Name]
+GO
+
+
+select * from vv_EmployeeOrders
+
+
+select * from BusinessEntities

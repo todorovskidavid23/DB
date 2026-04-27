@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\code\\Desktop\\David\\Databases\\DB\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\code\\Desktop\\David\\Databases\\DB\\Class05\\Workshop\\02_PizzaOrder_Insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Class05\\Workshop\\02_PizzaOrder_Insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "02_PizzaOrder_Insert.sql - PETRA08\\SQLEXPRESS.master (SEDC\\Code (67))",
+              "DocumentMoniker": "C:\\Users\\code\\Desktop\\David\\Databases\\DB\\Class05\\Workshop\\02_PizzaOrder_Insert.sql",
+              "RelativeDocumentMoniker": "Class05\\Workshop\\02_PizzaOrder_Insert.sql",
+              "ToolTip": "C:\\Users\\code\\Desktop\\David\\Databases\\DB\\Class05\\Workshop\\02_PizzaOrder_Insert.sql - PETRA08\\SQLEXPRESS.master (SEDC\\Code (67))",
+              "RelativeToolTip": "Class05\\Workshop\\02_PizzaOrder_Insert.sql - PETRA08\\SQLEXPRESS.master (SEDC\\Code (67))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-27T18:18:46.626Z",
+              "EditorCaption": " - PETRA08\\SQLEXPRESS.master (SEDC\\Code (67))"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
